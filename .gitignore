@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 資料與產物
+data/
+
+# 模型權重 / MANO (體積大或有授權限制,需自行下載放到對應位置)
+*.pt
+*.ckpt
+stera-sdk/WiLoR/mano_data/

@@ -1,0 +1,21 @@
+# 管線 (01-03) 所需依賴。stera 與 depth_pro 由本地 src 載入 (02 會設定 PYTHONPATH),不必 pip install。
+numpy>=1.24,<2
+opencv-python>=4.8
+h5py>=3.8
+tqdm>=4.65
+rerun-sdk>=0.22
+mcap>=1.1
+mcap-ros2-support>=0.5
+# Depth Pro + WiLoR
+torch
+torchvision
+timm
+pillow_heif
+matplotlib
+ultralytics
+pytorch-lightning
+smplx==0.1.28
+yacs
+einops
+scikit-image
+pyrender
